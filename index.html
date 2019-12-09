@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        .row{
+            transition: all 0.3s;
+        }
+        .col{
+            border: 1px solid white;
+            padding: 0.5em;
+            background-color: rgba(187, 92, 92, 0.856);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: larger;
+            font-weight: bolder;
+        }
+        .desafio2{
+            border: 1px solid white;
+            padding: 0.5em;
+            background-color: rgba(64, 93, 167, 0.527);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: larger;
+            font-weight: bolder;
+        }
+        .desafio3{
+            border: 1px solid white;
+            padding: 0.5em;
+            background-color: rgba(64, 167, 64, 0.527);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: larger;
+            font-weight: bolder;
+        }
+    </style>
+    <title>Practicando Bootstrap</title>
+  </head>
+  <body>
+     <center><h1>DESAFIO 1 (No responsive)</h1></center>
+   <div class="container">
+
+       <div class="row">
+           <div class="col">1</div>
+           <div class="col">2</div>
+           <div class="col">3</div>
+       </div>
+       <div class="row">
+           <div class="col">1</div>
+           <div class="col">2</div>
+           <div class="col">3</div>
+           <div class="col">4</div>
+           <div class="col">5</div>
+           <div class="col">6</div>
+           <div class="col">7</div>
+           <div class="col">8</div>
+           <div class="col">9</div>
+           <div class="col">10</div>
+       </div>
+       <div class="row">
+           <div class="col">1</div>
+           <div class="col">2</div>
+       </div>
+       <div class="row">
+           <div class="col">1</div>
+           <div class="col">2</div>
+           <div class="col">3</div>
+           <div class="col">4</div>
+           <div class="col">5</div>
+       </div>
+       <div class="row">
+           <div class="col">1</div>
+       </div>
+   </div>
+<br>
+<br>
+   <center><h1>DESAFIO 2 (Responsive)</h1></center>
+   <div class="container">
+       <div class="row">
+           <div class="col-6 col-lg-3 col-sm-6 col-md-3 desafio2">1</div>
+           <div class="col-6 col-lg-3 col-sm-6 col-md-3 desafio2">2</div>
+           <div class="col-6 col-lg-3 col-sm-6 col-md-3 desafio2">3</div>
+           <div class="col-6 col-lg-3 col-sm-6 col-md-3 desafio2">4</div>
+       </div>
+       <div class="row">
+           <div class="col-sm-12 col-md-6 col-lg desafio2">1</div>
+           <div class="col-sm-12 col-md-6 col-lg desafio2">2</div>
+           <div class="col-sm-12 col-md-6 col-lg desafio2">3</div>
+           <div class="col-sm-12 col-md-6 col-lg desafio2">4</div>
+           <div class="col-sm-12 col-md-6 col-lg desafio2">5</div>
+           <div class="col-sm-12 col-md-6 col-lg desafio2">6</div>
+           <div class="col-sm-12 col-md-6 col-lg desafio2">7</div>
+           <div class="col-sm-12 col-md-6 col-lg desafio2">8</div>
+           <div class="col-sm-12 col-md-6 col-lg desafio2">9</div>
+           <div class="col-sm-12 col-md-6 col-lg desafio2">10</div>
+       </div>
+   </div>
+   <br>
+   <br>
+      <center><h1>DESAFIO 3, Offsetting columns (Responsive)</h1></center>
+      <div class="container">
+          <div class="row">
+              <div class="col-12 col-lg-6 offset-lg-6 desafio3" >1</div>
+          </div>
+          <div class="row">
+              <div class="col-8 col-lg-8 offset-lg-2 desafio3">2</div>
+          </div>
+          <div class="row">
+              <div class="col offset-9 col-lg-3 offset-md-0 desafio3">3</div>
+          </div>
+      </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
